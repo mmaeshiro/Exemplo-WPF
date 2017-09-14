@@ -1,0 +1,21 @@
+﻿<Window x:Name="WindowMain" x:Class="TreinaWeb.CadastroPessoas.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreinaWeb.CadastroPessoas.WPF"
+        mc:Ignorable="d"
+        Title="Cadastro de Pessoas WPF" Height="419.737" Width="735.526" Loaded="WindowMain_Loaded">
+    <Grid>
+        <DataGrid x:Name="dgrPessoas" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="312" Width="708" IsReadOnly="True" SelectionMode="Single" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" ClipboardContentBinding="{x:Null}" Header="Id" Width="60"/>
+                <DataGridTextColumn Binding="{Binding Nome}" ClipboardContentBinding="{x:Null}" Header="Nome" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Idade}" ClipboardContentBinding="{x:Null}" Header="Idade" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Endereco}" ClipboardContentBinding="{x:Null}" Header="Endereço" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnCadastraPessoa" Content="Inserir Pessoa" HorizontalAlignment="Left" Margin="241,343,0,0" VerticalAlignment="Top" Width="209" Click="btnCadastraPessoa_Click"/>
+
+    </Grid>
+</Window>

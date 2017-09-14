@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.CadastroPessoas", "TreinaWeb.CadastroPessoas\TreinaWeb.CadastroPessoas.csproj", "{6766A84E-B47E-4FA5-8797-669EFF762882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.CadastroPessoas.Repositorio", "TreinaWeb.CadastroPessoas.Repositorio\TreinaWeb.CadastroPessoas.Repositorio.csproj", "{60D16559-2B2D-4CDA-9714-AD6643D7DE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.Persistencia.EF", "TrenaWeb.Persistencia.EF\TreinaWeb.Persistencia.EF.csproj", "{9333E722-BF71-4823-ABF9-D37386AF547B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.CadastroPessoa.Dominio", "TreinaWeb.CadastroPessoa.Dominio\TreinaWeb.CadastroPessoa.Dominio.csproj", "{5EB8AAF0-A526-48E7-B391-14499757E7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroPessoas.Persistencia.NHibernete", "CadastroPessoas.Persistencia.NHibernete\CadastroPessoas.Persistencia.NHibernete.csproj", "{C61EED91-380F-43F7-AAFA-B089B260692B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaWeb.CadastroPessoas.WPF", "TreinaWeb.CadastroPessoas.WPF\TreinaWeb.CadastroPessoas.WPF.csproj", "{4FC39AEC-27A2-45DE-AF61-1E022ED627D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6766A84E-B47E-4FA5-8797-669EFF762882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6766A84E-B47E-4FA5-8797-669EFF762882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6766A84E-B47E-4FA5-8797-669EFF762882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6766A84E-B47E-4FA5-8797-669EFF762882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D16559-2B2D-4CDA-9714-AD6643D7DE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D16559-2B2D-4CDA-9714-AD6643D7DE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D16559-2B2D-4CDA-9714-AD6643D7DE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D16559-2B2D-4CDA-9714-AD6643D7DE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9333E722-BF71-4823-ABF9-D37386AF547B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9333E722-BF71-4823-ABF9-D37386AF547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9333E722-BF71-4823-ABF9-D37386AF547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9333E722-BF71-4823-ABF9-D37386AF547B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB8AAF0-A526-48E7-B391-14499757E7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB8AAF0-A526-48E7-B391-14499757E7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB8AAF0-A526-48E7-B391-14499757E7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB8AAF0-A526-48E7-B391-14499757E7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61EED91-380F-43F7-AAFA-B089B260692B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61EED91-380F-43F7-AAFA-B089B260692B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61EED91-380F-43F7-AAFA-B089B260692B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61EED91-380F-43F7-AAFA-B089B260692B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC39AEC-27A2-45DE-AF61-1E022ED627D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC39AEC-27A2-45DE-AF61-1E022ED627D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC39AEC-27A2-45DE-AF61-1E022ED627D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC39AEC-27A2-45DE-AF61-1E022ED627D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
